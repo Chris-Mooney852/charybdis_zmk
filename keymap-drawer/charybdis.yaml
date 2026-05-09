@@ -171,63 +171,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  GAME:
-  - ESCAPE
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD GRAVE ACCENT AND TILDE))
-  - '1'
-  - '2'
-  - '3'
-  - {t: '4', h: '5'}
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
-  - T
-  - TAB
-  - Q
-  - W
-  - E
-  - {t: R, h: T}
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
-  - U
-  - I
-  - O
-  - P
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
-  - G
-  - LEFT SHIFT
-  - A
-  - S
-  - D
-  - {t: F, h: G}
-  - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT GUI}
-  - {t: L, h: RIGHT ALT}
-  - '&hmr RIGHT_CONTROL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SEMICOLON_AND_COLON))'
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
-  - B
-  - '&hml LEFT_CONTROL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_NON_US_BACKSLASH_AND_PIPE))'
-  - {t: Y, h: LEFT ALT}
-  - {t: X, h: LEFT GUI}
-  - {t: C, h: LEFT SHIFT}
-  - {t: V, h: B}
-  - N
-  - {t: M, h: RIGHT SHIFT}
-  - '&hmr RIGHT_GUI (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_COMMA_AND_LESS_THAN))'
-  - '&hmr RIGHT_ALT (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_PERIOD_AND_GREATER_THAN))'
-  - '&lt 4 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
-  - {t: RIGHT SHIFT, h: DELETE}
-  - {t: TAB, h: Graph}
-  - SPACE
-  - {t: LEFT GUI, h: Graph}
-  - {t: ENTER, h: Graph}
-  - BACK SPACE
-  - R CLK
-  - L CLK
-  - Graph
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -402,28 +345,12 @@ layers:
 combos:
 - p: [50, 51]
   k: {t: Graph, h: toggle}
-  l: [GAME, FN]
-- p: [50, 51]
-  k: {t: Graph, h: toggle}
-  l: [Graph, GAME, FN]
-- p: [47, 36]
-  k: {t: GAME, h: toggle}
-  l: [Graph, FN]
+  l: [FN]
 - p: [41, 42]
   k: {t: FN, h: toggle}
-  l: [Graph, GAME]
+  l: [Graph]
 - p: [31, 28]
   k: CAPS WORD
-- p: [43, 44]
-  k: L CLK
-- p: [44, 45]
-  k: R CLK
-- p: [44, 45, 43]
-  k: M CLK
-- p: [40, 39]
-  k: L CLK
-- p: [38, 39]
-  k: R CLK
 - p: [38, 39, 40]
   k: M CLK
 - p: [24, 25]
