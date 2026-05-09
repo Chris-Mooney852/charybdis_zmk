@@ -188,7 +188,7 @@
 &kp TAB                &kp B                &kp L            &kp D              &kp W            &kp Z          &kp MINUS             &kp F             &kp O               &kp U             &kp J                 &kp SEMI
 &kp DELETE             &hml LEFT_CONTROL N  &hml LEFT_ALT R  &hml LEFT_SHIFT T  &hml LEFT_GUI S  &kp G          &kp Y                 &hmr RIGHT_GUI H  &hmr RIGHT_SHIFT A  &hmr RIGHT_ALT E  &hmr RIGHT_CONTROL I  &kp APOS
 &mt LEFT_GUI LC(LPAR)  &lt 4 Q              &lt 5 X          &kp M              &kp C            &kp V          &kp K                 &kp P             &kp COMMA           &lt 5 DOT         &lt 4 FSLH            &mt RIGHT_GUI RPAR
-                                                             &kp TAB            &lt 1 ESCAPE     &lt 2 SPACE    &lt 2 ENTER           &kp BACKSPACE
+                                                             &kp TAB            &lt 1 ESCAPE     &lt 2 SPACE    &kp ENTER             &lt 2 BACKSPACE
                                                                                 &mkp RCLK        &mkp LCLK      &kp LS(LG(LEFT_ALT))
             >;
 
@@ -210,11 +210,11 @@
 
         lin_lower_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans             &trans              &trans  &trans          &trans          &trans        &trans           &trans
-&trans  &trans  &trans  &trans  &kp C_VOLUME_UP    &kp C_PREV          &trans  &kp LG(LBKT)    &kp LG(RBKT)    &trans        &trans           &trans
-&trans  &trans  &trans  &trans  &kp C_MUTE         &kp C_PLAY_PAUSE    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_NEXT          &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
-                        &trans  &trans             &trans              &trans  &trans
+&trans  &trans  &trans  &trans  &trans             &trans              &trans          &trans          &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &kp C_VOLUME_UP    &kp C_PREV          &trans          &kp LG(LBKT)    &kp LG(RBKT)  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &kp C_MUTE         &kp C_PLAY_PAUSE    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP        &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_NEXT          &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &trans  &trans
+                        &trans  &trans             &trans              &trans          &trans
                                 &trans             &trans              &trans
             >;
 

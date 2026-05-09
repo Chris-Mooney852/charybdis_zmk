@@ -52,8 +52,8 @@ layers:
   - TAB
   - {t: ESCAPE, h: NUMBERS}
   - {t: SPACE, h: NAV-FUN}
-  - {t: ENTER, h: NAV-FUN}
-  - BACK SPACE
+  - ENTER
+  - {t: BACK SPACE, h: NAV-FUN}
   - R CLK
   - L CLK
   - Sft+Gui+ LEFT ALT
@@ -145,11 +145,11 @@ layers:
   - {t: ▽, type: trans}
   - MUTE
   - PLAY PAUSE
-  - {t: ▽, type: trans}
   - LEFT
   - DOWN ARROW
-  - UP ARROW
+  - UP
   - RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -157,11 +157,11 @@ layers:
   - {t: ▽, type: trans}
   - VOLUME DOWN
   - NEXT
-  - {t: ▽, type: trans}
   - HOME
   - PAGE DOWN
   - PAGE UP
   - END
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
