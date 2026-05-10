@@ -52,11 +52,11 @@ layers:
   - TAB
   - {t: ESCAPE, h: NUMBERS}
   - {t: SPACE, h: NAV-FUN}
-  - ENTER
+  - Gui+Sft+ LEFT ALT
   - {t: BACK SPACE, h: NAV-FUN}
   - R CLK
   - L CLK
-  - Sft+Gui+ LEFT ALT
+  - ENTER
   NUMBERS:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

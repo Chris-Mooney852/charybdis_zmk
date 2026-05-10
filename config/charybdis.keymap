@@ -151,8 +151,8 @@
 &kp TAB                &kp B                &kp L            &kp D              &kp W            &kp Z          &kp MINUS             &kp F             &kp O               &kp U             &kp J                 &kp SEMI
 &kp DELETE             &hml LEFT_CONTROL N  &hml LEFT_ALT R  &hml LEFT_SHIFT T  &hml LEFT_GUI S  &kp G          &kp Y                 &hmr RIGHT_GUI H  &hmr RIGHT_SHIFT A  &hmr RIGHT_ALT E  &hmr RIGHT_CONTROL I  &kp APOS
 &mt LEFT_GUI LC(LPAR)  &lt 3 Q              &lt 4 X          &kp M              &kp C            &kp V          &kp K                 &kp P             &kp COMMA           &lt 4 DOT         &lt 3 FSLH            &mt RIGHT_GUI RPAR
-                                                             &kp TAB            &lt 1 ESCAPE     &lt 2 SPACE    &kp ENTER             &lt 2 BACKSPACE
-                                                                                &mkp RCLK        &mkp LCLK      &kp LS(LG(LEFT_ALT))
+                                                             &kp TAB            &lt 1 ESCAPE     &lt 2 SPACE    &kp LG(LS(LEFT_ALT))  &lt 2 BACKSPACE
+                                                                                &mkp RCLK        &mkp LCLK      &kp ENTER
             >;
 
             label = "Graph";
