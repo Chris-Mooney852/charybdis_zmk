@@ -37,7 +37,7 @@ layers:
   - {t: E, h: RIGHT ALT}
   - {t: I, h: RIGHT CONTROL}
   - ''''
-  - {t: Ctl+ (, h: LEFT GUI}
+  - {t: (, h: LEFT GUI}
   - {t: Q, h: SCROLL}
   - {t: X, h: SNIPER}
   - M
@@ -83,12 +83,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RIGHT CONTROL
+  - ^
   - '&'
   - '*'
   - '{'
   - '['
-  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION)))
+  - +
   - '4'
   - '5'
   - '6'
@@ -134,8 +134,8 @@ layers:
   - VOLUME UP
   - PREV
   - {t: ▽, type: trans}
-  - Gui+ [
-  - Gui+ ]
+  - Gui+Sft+ [
+  - Gui+Sft+ ]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
