@@ -150,7 +150,7 @@
 &kp GRAVE              &kp N1               &kp N2           &kp N3             &kp N4           &kp N5         &kp N6                &kp N7            &kp N8              &kp N9            &kp N0                &lt 5 BACKSPACE
 &kp TAB                &kp B                &kp L            &kp D              &kp W            &kp Z          &kp MINUS             &kp F             &kp O               &kp U             &kp J                 &kp SEMI
 &kp DELETE             &hml LEFT_CONTROL N  &hml LEFT_ALT R  &hml LEFT_SHIFT T  &hml LEFT_GUI S  &kp G          &kp Y                 &hmr RIGHT_GUI H  &hmr RIGHT_SHIFT A  &hmr RIGHT_ALT E  &hmr RIGHT_CONTROL I  &kp APOS
-&mt LEFT_GUI LC(LPAR)  &lt 3 Q              &lt 4 X          &kp M              &kp C            &kp V          &kp K                 &kp P             &kp COMMA           &lt 4 DOT         &lt 3 FSLH            &mt RIGHT_GUI RPAR
+&mt LEFT_GUI LPAR  &lt 3 Q              &lt 4 X          &kp M              &kp C            &kp V          &kp K                 &kp P             &kp COMMA           &lt 4 DOT         &lt 3 FSLH            &mt RIGHT_GUI RPAR
                                                              &kp TAB            &lt 1 ESCAPE     &lt 2 SPACE    &kp LG(LS(LEFT_ALT))  &lt 2 BACKSPACE
                                                                                 &mkp RCLK        &mkp LCLK      &kp ENTER
             >;
@@ -162,7 +162,7 @@
             bindings = <
 &trans  &trans              &trans    &trans     &trans         &trans            &trans       &trans        &trans        &trans     &trans    &trans
 &trans  &kp DE_EXCLAMATION  &kp AT    &kp POUND  &kp DLLR       &kp DE_PERCENT    &kp MINUS    &kp N7        &kp N8        &kp N9     &trans    &trans
-&trans  &kp RIGHT_CONTROL   &kp AMPS  &kp ASTRK  &kp LBRC       &kp LBKT          &kp DE_PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp N6     &kp RBRC  &kp RBKT
+&trans  &kp CARET   &kp AMPS  &kp ASTRK  &kp LBRC       &kp LBKT          &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp N6     &kp RBRC  &kp RBKT
 &trans  &trans              &trans    &kp NUBS   &kp PIPE       &trans            &kp EQUAL    &kp DE_N1     &kp DE_N2     &kp DE_N3  &kp DOT   &trans
                                       &trans     &kp BACKSPACE  &trans            &trans       &kp DE_N0
                                                  &trans         &trans            &trans
@@ -174,7 +174,7 @@
         lin_lower_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans             &trans              &trans          &trans          &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &kp C_VOLUME_UP    &kp C_PREV          &trans          &kp LG(LBKT)    &kp LG(RBKT)  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &kp C_VOLUME_UP    &kp C_PREV          &trans          &kp LG(LS(LBKT))    &kp LG(LS(RBKT))  &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &kp C_MUTE         &kp C_PLAY_PAUSE    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP        &kp RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_NEXT          &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &trans  &trans
                         &trans  &trans             &trans              &trans          &trans
