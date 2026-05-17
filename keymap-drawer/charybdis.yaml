@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  Graph:
+  Graphiteish:
   - '`'
   - '1'
   - '2'
@@ -71,7 +71,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE)))
+  - '!'
   - '@'
   - '#'
   - $
@@ -343,14 +343,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [50, 51]
-  k: {t: Graph, h: toggle}
-  l: [FN]
 - p: [41, 42]
   k: {t: FN, h: toggle}
-  l: [Graph]
+  l: [Graphiteish]
 - p: [31, 28]
   k: CAPS WORD
+  l: [NUMBERS]
 - p: [38, 39, 40]
   k: M CLK
 - p: [24, 25]

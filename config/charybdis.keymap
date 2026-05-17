@@ -70,27 +70,8 @@
         time-to-live-ms = <750>;
     };
 
-    // #define QUERTZ    0
-    // #define NUMBERS   1
-    // #define NAV-FUN   2
-    // #define MAC       3
-    // #define MAC-NUM   4
-    // #define MAC-NAV   5
-    // #define GAME      6
-    // #define GAME-NUM  7
-    // #define GAME-NAV  8
-    // #define SCROLL    9
-    // #define SNIPER   10
-    // #define FN       11
-
     combos {
         compatible = "zmk,combos";
-
-        to-WIN {
-            bindings = <&to 0>;
-            key-positions = <50 51>;
-            layers = <5>;
-        };
 
         to-FN {
             bindings = <&to 5>;
@@ -101,6 +82,7 @@
         caps_word {
             bindings = <&caps_word>;
             key-positions = <31 28>;
+            layers = <1>;
         };
 
         lh_middleClick {
@@ -155,13 +137,13 @@
                                                                                 &mkp RCLK        &mkp LCLK      &kp ENTER
             >;
 
-            label = "Graph";
+            label = "Graphiteish";
         };
 
         lin_raise_layer {
             bindings = <
 &trans  &trans              &trans    &trans     &trans         &trans            &trans       &trans        &trans        &trans     &trans    &trans
-&trans  &kp DE_EXCLAMATION  &kp AT    &kp POUND  &kp DLLR       &kp DE_PERCENT    &kp MINUS    &kp N7        &kp N8        &kp N9     &trans    &trans
+&trans  &kp EXCLAMATION  &kp AT    &kp POUND  &kp DLLR       &kp DE_PERCENT    &kp MINUS    &kp N7        &kp N8        &kp N9     &trans    &trans
 &trans  &kp CARET   &kp AMPS  &kp ASTRK  &kp LBRC       &kp LBKT          &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp N6     &kp RBRC  &kp RBKT
 &trans  &trans              &trans    &kp NUBS   &kp PIPE       &trans            &kp EQUAL    &kp DE_N1     &kp DE_N2     &kp DE_N3  &kp DOT   &trans
                                       &trans     &kp BACKSPACE  &trans            &trans       &kp DE_N0
